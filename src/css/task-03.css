@@ -1,0 +1,18 @@
+img {
+  width: 420px;
+  height: 420px;
+}
+.gallery {
+  display: flex;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item {
+  display: block;
+  margin-right: 20px;
+}
+.item:last-child {
+  margin-right: 0;
+}
